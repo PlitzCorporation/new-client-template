@@ -3,113 +3,113 @@
 @tailwind utilities;
 
 :root {
-  --plitz-bgs: #1a1a1a;
-  --plitz-body: #dbdbdb;
-  --plitz-light-gray: #efefef;
-  --plitz-green: #00ff62;
-  --plitz-dark: #434343;
-  --plitz-blue: #0b093a;
-  --primary-font: Montserrat, "sans";
-  --secodary-font: DM Sans, "sans";
+	--plitz-bgs: #1a1a1a;
+	--plitz-body: #dbdbdb;
+	--plitz-light-gray: #efefef;
+	--plitz-green: #00ff62;
+	--plitz-dark: #434343;
+	--plitz-blue: #0b093a;
+	--primary-font: Montserrat, 'sans';
+	--secodary-font: DM Sans, 'sans';
 }
 
 @layer base {
-  body {
-    color: var(--plitz-body);
-    background: var(--plitz-bgs);
-    font-family: var(--secodary-font);
-  }
+	body {
+		color: var(--plitz-body);
+		background: var(--plitz-bgs);
+		font-family: var(--secodary-font);
+	}
 
-  section {
-    width: 95%;
-    max-width: 1500px;
-    margin: 0 auto;
-  }
+	section {
+		width: 95%;
+		max-width: 1500px;
+		margin: 0 auto;
+	}
 
-  p {
-    font-size: 1rem;
-    font-family: var(--secodary-font);
-  }
+	p {
+		font-size: 1rem;
+		font-family: var(--secodary-font);
+	}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: var(--plitz-light-gray);
-    font-family: var(--primary-font);
-    font-weight: 700;
-  }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: var(--plitz-light-gray);
+		font-family: var(--primary-font);
+		font-weight: 700;
+	}
 
-  h1 {
-    font-size: 4.375rem;
-    line-height: 1.1em;
-  }
+	h1 {
+		font-size: 4.375rem;
+		line-height: 1.1em;
+	}
 
-  h2 {
-    font-size: 4rem;
-    line-height: 1.3em;
-  }
+	h2 {
+		font-size: 4rem;
+		line-height: 1.3em;
+	}
 
-  h3 {
-    font-size: 3.4375rem;
-    line-height: 1.2em;
-  }
+	h3 {
+		font-size: 3.4375rem;
+		line-height: 1.2em;
+	}
 
-  h4 {
-    font-size: 2.75rem;
-    line-height: 1.3em;
-  }
+	h4 {
+		font-size: 2.75rem;
+		line-height: 1.3em;
+	}
 
-  h5 {
-    font-size: 2.375rem;
-    line-height: 1.3em;
-  }
+	h5 {
+		font-size: 2.375rem;
+		line-height: 1.3em;
+	}
 
-  h6 {
-    font-size: 2rem;
-    line-height: 1.3em;
-  }
+	h6 {
+		font-size: 2rem;
+		line-height: 1.3em;
+	}
 
-  @media screen and (max-width: 768px) {
-    h1 {
-      font-size: 3.5rem;
-    }
+	@media screen and (max-width: 768px) {
+		h1 {
+			font-size: 3.5rem;
+		}
 
-    h2 {
-      font-size: 3.1rem;
-    }
+		h2 {
+			font-size: 3.1rem;
+		}
 
-    h3 {
-      font-size: 2.75rem;
-    }
+		h3 {
+			font-size: 2.75rem;
+		}
 
-    h4 {
-      font-size: 2.35rem;
-    }
-  }
+		h4 {
+			font-size: 2.35rem;
+		}
+	}
 
-  @media screen and (max-width: 500px) {
-    body,
-    p {
-      font-size: 0.87rem;
-    }
+	@media screen and (max-width: 500px) {
+		body,
+		p {
+			font-size: 0.87rem;
+		}
 
-    h1 {
-      font-size: 2.5rem;
-    }
+		h1 {
+			font-size: 2.5rem;
+		}
 
-    h2 {
-      font-size: 2.2rem;
-    }
+		h2 {
+			font-size: 2.2rem;
+		}
 
-    h3 {
-      font-size: 2rem;
-    }
+		h3 {
+			font-size: 2rem;
+		}
 
-    h4 {
-      font-size: 1.9rem;
-    }
-  }
+		h4 {
+			font-size: 1.9rem;
+		}
+	}
 }

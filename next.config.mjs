@@ -14,6 +14,15 @@ const nextConfig = {
       },
     ],
   },
+
+  async rewrites() {
+    return [
+      {
+        source: '/td/:path*',
+        destination: 'https://thedavid.plitz7.com/:path*', // Proxy to Backend
+      }
+    ]
+  }
 };
 
 export default nextConfig;

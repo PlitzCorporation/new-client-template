@@ -2,10 +2,10 @@
 
 exports[`HomePage renders the welcome message 1`] = `
 <main
-  class="flex min-h-screen flex-col items-center justify-between p-24"
+  class="flex min-h-screen flex-col items-center justify-between p-10 lg:p-24"
 >
   <h1
-    class="text-center text-balance w-2/3"
+    class="text-center text-balance w-2/3 mb-7"
   >
     Welcome to Plitz's Next.JS + Tailwind CSS Starter
   </h1>
