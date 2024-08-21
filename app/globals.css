@@ -6,7 +6,7 @@
 	--plitz-bgs: #1a1a1a;
 	--plitz-body: #dbdbdb;
 	--plitz-light-gray: #efefef;
-	--plitz-green: #00ff62;
+	--plitz-accent: #00ff62;
 	--plitz-dark: #434343;
 	--plitz-blue: #0b093a;
 	--primary-font: Montserrat, 'sans';
@@ -20,7 +20,7 @@
 		font-family: var(--secodary-font);
 	}
 
-	section {
+	.plitz-container {
 		width: 95%;
 		max-width: 1500px;
 		margin: 0 auto;

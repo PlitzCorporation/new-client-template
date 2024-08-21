@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 import { primaryFont, secondaryFont } from './resources/FontSettings';
+import Header from '@/components/ui/Header';
 
 export const metadata: Metadata = {
 	title: 'Plitz7 New Project Template',
@@ -16,6 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${primaryFont.variable} ${secondaryFont.variable}`}>
+				<Header />
 				{children}
 			</body>
 		</html>

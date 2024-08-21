@@ -37,7 +37,7 @@ const ImageViewer = (props: ImageViewerProps) => {
 		>
 			<div className="absolute left-1/2 -translate-x-1/2 flex justify-end top-0 w-11/12 z-50">
 				<button
-					className="px-7 py-4 bg-plitz-green rounded-b-2xl text-3xl"
+					className="px-7 py-4 bg-plitz-accent rounded-b-2xl text-3xl"
 					onClick={handleClick}
 				>
 					<CloseEx className="w-7 h-7 fill-plitz-blue" />

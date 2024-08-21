@@ -11,7 +11,7 @@ const config: Config = {
 			'plitz-bgs': '#1a1a1a',
 			'plitz-body': '#dbdbdb',
 			'plitz-light-gray': '#efefef',
-			'plitz-green': '#00ff62',
+			'plitz-accent': '#00ff62',
 			'plitz-dark': '#434343',
 			'plitz-blue': '#0b093a',
 			white: '#ffffff',

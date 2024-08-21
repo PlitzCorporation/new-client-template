@@ -9,7 +9,7 @@ const HomePage = () => {
 				Welcome to Plitz&apos;s Next.JS + Tailwind CSS Starter
 			</h1>
 			<div className="w-full lg:w-2/4 flex flex-col items-center justify-center">
-				<h2 className="text-plitz-green text-center mb-7">
+				<h2 className="text-plitz-accent text-center mb-7">
 					This Plitz7 template is really ready to start a new project
 				</h2>
 				<p className="mb-4">Things to start with:</p>

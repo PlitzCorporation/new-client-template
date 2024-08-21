@@ -13,7 +13,7 @@ exports[`HomePage renders the welcome message 1`] = `
     class="w-full lg:w-2/4 flex flex-col items-center justify-center"
   >
     <h2
-      class="text-plitz-green text-center mb-7"
+      class="text-plitz-accent text-center mb-7"
     >
       This Plitz7 template is really ready to start a new project
     </h2>
